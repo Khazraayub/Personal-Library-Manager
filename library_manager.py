@@ -23,7 +23,7 @@ st.markdown(
     """
     <style>
         .stApp{
-            background: linear-gradient(135deg,rgb(243, 196, 67),rgb(198, 214, 238));
+            background: linear-gradient(135deg,rgb(236, 178, 16),rgb(198, 214, 238));
         }
         .main-header {
             font-size: 3rem !important;
