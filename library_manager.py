@@ -22,6 +22,9 @@ st.set_page_config(
 st.markdown(
     """
     <style>
+        .stApp{
+            background: linear-gradient(135deg,rgb(243, 196, 67),rgb(198, 214, 238));
+        }
         .main-header {
             font-size: 3rem !important;
             color: #1E3A8A;
@@ -446,5 +449,3 @@ elif st.session_state.current_view == "stats":
 
 st.markdown("---")
 st.markdown("Copyright @ 2025 Khazra Ayub Personal Library Manager 📚", unsafe_allow_html=True)
-
-
