@@ -124,7 +124,7 @@ def load_library():
 # SAVE LIBRARY
 def save_library():
     try:
-        with open('library.json', 'r') as file:
+        with open('library.json', 'w') as file:
             json.dump(st.session_state.library, file)
             return True
     except Exception as e:
